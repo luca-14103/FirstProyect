@@ -1,17 +1,17 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ecf00ba6;
     text-align: center;
-    padding: 50px;
+    padding: 70px;
 }
 
 h1 {
-    color: #333;
+    color: #c91e1e6e;
 }
 
 p {
     font-size: 18px;
-    color: #666;   
+    color: #6d4040;   
 }
 img {
     width: 80%; /* Ajusta el tamaño de la imagen */
@@ -20,11 +20,11 @@ img {
     margin: 20px auto; /* Da espacio arriba y abajo */
 }
 form {
-    background-color: #fff;
+    background-color: #a0ac3a;
     padding: 20px;
     margin-top: 30px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(212, 140, 140, 0.1);
     width: 80%;
     max-width: 600px;
     margin-left: auto;
@@ -62,7 +62,7 @@ form input[type="submit"]:hover {
     bottom: 20px;
     right: 20px;
     background-color: #4CAF50;
-    color: white;
+    color: rgb(110, 37, 37);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
@@ -73,9 +73,9 @@ form input[type="submit"]:hover {
     background-color: #45a049;
 }
 #services {
-    margin-top: 50px;
-    font-size: 24px;
-    color: #0c0b0b7e;
+    margin-top: 80px;
+    font-size: 34px;
+    color: #0e01057e;
 }
 
 .services {
@@ -260,4 +260,26 @@ nav a {
         text-align: center;
     }
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body {
+    font-family: 'Merriweather', serif;
+}
+.descripcion {
+    background-color: rgba(121, 235, 99, 0.7); /* Fondo oscuro con transparencia */
+    color: rgb(2, 2, 2); /* Texto en blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: fit-content; /* Solo ocupa lo necesario según el texto */
+    max-width: 600px; /* Ancho máximo */
+    margin: 50px auto; /* Centrado horizontal y espacio arriba */
+    text-align: center; /* Centrar texto */
+    position: relative; /* Mantiene su posición en el flujo normal */
+    z-index: 2; /* Se asegura de estar por encima de otros elementos */
+}
+h1 {
+    font-family: 'Cinzel', serif;
+    font-weight: 100000; /* Hace que se vea más fuerte */
+    color: #222; /* Color oscuro para más impacto */
+    text-transform: uppercase; /* Convierte el texto a mayúsculas */
+    letter-spacing: 2px; /* Separa un poco las letras */
+}
